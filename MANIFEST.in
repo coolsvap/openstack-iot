@@ -1,0 +1,10 @@
+include AUTHORS
+include ChangeLog
+exclude .gitignore
+exclude .gitreview
+
+include iot/db/sqlalchemy/alembic.ini
+include iot/db/sqlalchemy/alembic/script.py.mako
+
+global-exclude *.pyc
+
